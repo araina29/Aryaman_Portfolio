@@ -387,8 +387,18 @@
         margin-left: 90px;
     }
     .about-content-area {
-        margin-top: 0;
+        margin-left: 10%;
+        margin-top: 60%;
+        margin-bottom: auto;
     }
+
+    .about-bottom p {
+        font-size: 20px;
+    }
+    .profile-menu{
+        margin-top: 10%;
+    }
+
     .interest-item {
         margin-bottom: 0;
     }

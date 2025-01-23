@@ -134,8 +134,8 @@ body {
 }
 
 #header-bottom::after {
-    background: -webkit-gradient(linear, left top, right top, from(#17D396), to(#07F7F7));
-    background: linear-gradient(to right, #17D396, #07F7F7);
+    /* background: -webkit-gradient(linear, left top, right top, from(#17D396), to(#07F7F7));
+    background: linear-gradient(to right, #17D396, #07F7F7); */
     content: "";
     height: 100%;
     left: 0;
