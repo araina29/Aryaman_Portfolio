@@ -453,17 +453,17 @@
                 <div class="section-title">
                     <h2>Some Of My Works</h2>
                 </div>
-                <ul class="filters">
+                <!-- <ul class="filters">
                     <li class="type active" data-filter="*">All</li>
                     <li class="type" data-filter=".python">Python</li>
                     <li class="type" data-filter=".frontend">Frontend</li>
                     <li class="type" data-filter=".backend">Backend</li>
                     <li class="type" data-filter=".data">Database</li>
                     <li class="type" data-filter=".AI">AI/ML/DL</li>
-                </ul>
+                </ul> -->
         
                 <div class="project-cards">
-                    <div class="project-card python AI">
+                    <div class="project-card">
                         <img src="img/cross.png" alt="Data Analysis Agent">
                         <div class="card-body">
                             <h5 class="card-title">Data Analysis Agent</h5>
@@ -472,7 +472,7 @@
                             <a href="#" class="btn">View Code</a>
                         </div>
                     </div>
-                    <div class="project-card python">
+                    <div class="project-card">
                         <img src="img/cross.png" alt="Boss Pizza Website">
                         <div class="card-body">
                             <h5 class="card-title">Boss Pizza Website</h5>
@@ -483,7 +483,7 @@
                     </div>
                     <!-- Add more project cards with appropriate categories -->
 
-                    <div class="project-card python">
+                    <div class="project-card">
                         <img src="path-to-image/boss.png" alt="Boss Pizza Website">
                         <div class="card-body">
                             <h5 class="card-title">Boss Pizza Website</h5>
@@ -493,7 +493,7 @@
                         </div>
                     </div>
 
-                    <div class="project-card frontend">
+                    <div class="project-card">
                         <img src="path-to-image/boss.png" alt="Boss Pizza Website">
                         <div class="card-body">
                             <h5 class="card-title">Boss Pizza Website</h5>
@@ -512,10 +512,6 @@
     </section>
     <!--====== Portfolio Area End ======-->
 
-
-
-    
-
     <!--====== Contact Area Start ======-->
     <section id="contact-area" class="section-padding">
         <div class="container">
@@ -531,13 +527,11 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="contact-form">
-                        <form action="https://send.pageclip.co/upQXnCaXHA5580evChlHLn0UoQYVd7VS/contact-form" class="pageclip-form" method="post" >
-                           
+                        <form name="contact" method="POST" data-netlify="true">
                             <div class="col-md-6 col-sm-6 col-xs-12">
                                 <div class="name-input">
                                     <div class="form-group">
-                                        <input type="name" name="name" placeholder="Your name" />
-                                        <p class="help-block text-danger"></p>
+                                        <input type="text" name="name" placeholder="Your name" required />
                                     </div>
                                 </div>
                             </div>
@@ -545,8 +539,7 @@
                             <div class="col-md-6 col-sm-6 col-xs-12">
                                 <div class="email-input">
                                     <div class="form-group">
-                                        <input type="email" name="email" placeholder="Your email" />
-                                        <p class="help-block text-danger"></p>
+                                        <input type="email" name="email" placeholder="Your email" required />
                                     </div>
                                 </div>
                             </div>
@@ -554,24 +547,22 @@
                             <div class="col-md-12">
                                 <div class="textarea-input">
                                     <div class="form-group">
-                                        <input type="text" name="text" placeholder="Subject" />
-                                        <p class="help-block text-danger"></p>
+                                        <input type="text" name="subject" placeholder="Subject" required />
                                     </div>
                                 </div>
                             </div>
 
-                            <!-- This button will have a loading spinner. Keep the inner span for best results. -->
-                            <button type="submit" class="pageclip-form__submit">
-                              <span>Send</span>
+                            <button type="submit">
+                                <span>Send</span>
                             </button>
-                          </form>
-                       
+                        </form>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!--====== Contact Area End ======-->
+<!--====== Contact Area End ======-->
+
 
     <!--====== Footer Area Start ======-->
 <footer id="footer-area">
