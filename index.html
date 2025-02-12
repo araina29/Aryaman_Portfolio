@@ -14,7 +14,14 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    
+    <!-- Load Font Awesome first -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- Load PageClip CSS (if still needed) -->
     <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
+
+
 </head>
 
 <body>
@@ -33,32 +40,45 @@
     </div>
     <!--====== Preloader End ======-->
 
-    <!--====== Header Start ======-->
-    <header id="header-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="header-social-icons">
-                        <ul>
-
-                            <li><a href="https://github.com/sSethi"><i class="fa fa-github"></i> Github</a></li>
-                             <li><a href="https://www.linkedin.com/in/Falak-Sethi-6a002b166/"><i class="fa fa-linkedin"></i> Linkedin</a></li>
-                            
-                        </ul>
-                    </div>
+<!--====== Header Start ======-->
+<header id="header-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="header-social-icons">
+                    <ul style="display: flex; align-items: center; list-style: none; padding: 0; margin: 0;">
+                        <li style="margin-right: 10px; display: flex; align-items: center;">
+                            <a href="https://github.com/sSethi" target="_blank" style="color: white; text-decoration: none; display: flex; align-items: center;">
+                                <i class="fab fa-github" style="font-size: 18px; margin-right: 5px;"></i> <span>Github</span>
+                            </a>
+                        </li>
+                        <li style="margin-right: 10px; display: flex; align-items: center;">
+                            <a href="https://www.linkedin.com/in/Falak-Sethi-6a002b166/" target="_blank" style="color: white; text-decoration: none; display: flex; align-items: center;">
+                                <i class="fab fa-linkedin" style="font-size: 18px; margin-right: 5px;"></i> <span>Linkedin</span>
+                            </a>
+                        </li>
+                        <li style="display: flex; align-items: center;">
+                            <a href="resume.html" target="_self" style="color: white; text-decoration: none; display: flex; align-items: center;">
+                                <i class="fas fa-file-alt" style="font-size: 18px; margin-right: 5px;"></i> <span>Resume</span>
+                            </a>
+                        </li>                            
+                    </ul>
                 </div>
+            </div>
 
-                <div class="col-md-8">
-                    <div class="menu-icon">
-                        <div class="open-btn">
-                            <span></span>
-                        </div>
+            <div class="col-md-8">
+                <div class="menu-icon" style="display: flex; justify-content: flex-end;">
+                    <div class="open-btn">
+                        <span></span>
                     </div>
                 </div>
             </div>
         </div>
-    </header>
-    <!--====== Header End ======-->
+    </div>
+</header>
+<!--====== Header End ======-->
+
+
 
     <!--====== Off Canvas Menu Start ======-->
     <div class="off-canvas-menu">
@@ -107,9 +127,6 @@
                         <div class="about-img">
                             <img src="img/pic.png.jpeg" alt="Resume">
                         </div>
-                        <div class="resume-btn">
-                            <a href="resume.html" target="_blank"></i>Resume</a>
-                        </div>
                     </div>
                 </div>
 
@@ -139,77 +156,6 @@
     </section>
     <!--====== About Area End ======-->
 
-   
-    <!-- <section id="interest-area" class="section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-10 col-md-offset-1">
-                    <div class="section-title">
-                        <h2>My interests</h2>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-md-10 col-md-offset-1">
-                    <div class="interests-content">
-                        <div class="row">
-                            <div class="col-md-2 col-sm-4 col-xs-6">
-                                <div class="interest-item wow fadeInUp">
-                                    <div class="interest-item-content">
-                                        <i class="fa fa-pencil"></i>
-
-                                        <p>Writing</p>
-                                    </div>
-                                </div>
-                            </div>
-                 
-                            <div class="col-md-2 col-sm-4 col-xs-6">
-                                <div class="interest-item wow fadeInDown">
-                                    <div class="interest-item-content">
-                                        <i class="fa fa-plane"></i>
-
-                                        <p>Travel</p>
-                                    </div>
-                                </div>
-                            </div>
-                        
-                            <div class="col-md-2 col-sm-4 col-xs-6">
-                                <div class="interest-item wow fadeInUp">
-                                    <div class="interest-item-content">
-                                        <i class="fa fa-music"></i>
-
-                                        <p>Music</p>
-                                    </div>
-                                </div>
-                            </div>
-                        
-                            <div class="col-md-2 col-sm-4 col-xs-6">
-                                <div class="interest-item wow fadeInDown">
-                                    <div class="interest-item-content">
-                                        <i class="fa fa-coffee"></i>
-
-                                        <p>Coffee</p>
-                                    </div>
-                                </div>
-                            </div>
-                 
-                            <div class="col-md-2 col-sm-4 col-xs-6">
-                                <div class="interest-item wow fadeInDown">
-                                    <div class="interest-item-content">
-                                        <i class="fa fa-paint-brush"></i>
-
-                                        <p>Art</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-    <!--====== My Interest Area End ======-->
 
     <!--====== Education Area Start ======-->
     <section id="education-area" class="section-padding">
@@ -496,87 +442,11 @@
             <script src="js/particles.js"></script>
               <script src="js/appHome.js"></script>
         </div><!--//main-wrapper-->
-    
-
-        <!-- <div class="skills-area-middle">
-            <div class="container">
-                <div class="skills-content">
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6 col-xs-12">
-                            <div class="skillst5">
-                                
-                                <div class="skillbar" data-percent="85%">
-                                    <div class="title">Python</div>
-                                    <div class="count-bar color-1">
-                                        <div class="count"></div>
-                                    </div>
-                                </div>
-                                
-                                <div class="skillbar" data-percent="80%">
-                                    <div class="title">Java</div>
-                                    <div class="count-bar color-1">
-                                        <div class="count"></div>
-                                    </div>
-                                </div>
-                                
-                                <div class="skillbar" data-percent="85%">
-                                    <div class="title">SQLite</div>
-                                    <div class="count-bar color-1">
-                                        <div class="count"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-6 col-sm-6 col-xs-12">
-                            <div class="skillst5 float-right">
-                                <div class="skillbar" data-percent="90%">
-                                    <div class="title">Analytics</div>
-                                    <div class="count-bar color-1">
-                                        <div class="count"></div>
-                                    </div>
-                                </div>
-                                
-                                <div class="skillbar" data-percent="90%">
-                                    <div class="title">Agile Methodologies</div>
-                                    <div class="count-bar color-1">
-                                        <div class="count"></div>
-                                    </div>
-                                </div>
-                               
-                                <div class="skillbar" data-percent="80%">
-                                    <div class="title">Problem Solving</div>
-                                    <div class="count-bar color-1">
-                                        <div class="count"></div>
-                                    </div>
-                                </div>
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-
 
 
         
     </section>
     <!--====== Skill Area End ======-->
-
-    <!--====== Portfolio Area Start ======-->
-    <!-- <section id="portfolio-area" class="section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="section-title">
-                        <h2>Some Of My Works</h2>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-
-        
 
         <section id="portfolio-area" class="section-padding">
             <div class="container">
@@ -635,75 +505,6 @@
                 </div>
             </div>
         </section>
-        
-    
-            <!-- <div class="container">
-                <div class="row">
-                    <div class="col-md-10 col-md-offset-1">
-                        <div class="portfolio-items">
-                            <div class="row">
-                                
-                                <div class="col-md-4 col-sm-6 col-xs-12">
-                                    <div class="portfolio-single">
-                                        <div class="portfolio-thum">
-                                            <img src="img/portfolio/port_item-1.jpg" alt="">
-                                        </div>
-                                        <div class="portfolio-hover text-center">
-                                            <div class="port-btn-hvr">
-                                                <a href="img/portfolio/port_item-1.jpg" class="image-link"><i class="fa fa-search-plus"></i></a>
-                                                <a href="https://github.com/sSethi/CMPUT-291-Mini-Project-2" target="_blank"><i class="fa fa-link"></i></a>
-                                            </div>
-                                            <div class="port-meta">
-                                                <h4>Movie DB System</h4>
-                                                <p>Python, SQL</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                              
-                                <div class="col-md-4 col-sm-6 col-xs-12">
-                                    <div class="portfolio-single">
-                                        <div class="portfolio-thum">
-                                            <img src="img/portfolio/port_item-2.png" alt="">
-                                        </div>
-                                        <div class="portfolio-hover text-center">
-                                            <div class="port-btn-hvr">
-                                                <a href="img/portfolio/port_item-2.png" class="image-link"><i class="fa fa-search-plus"></i></a>
-                                                <a href="https://www.Sethihospitals.com/" target="_blank"><i class="fa fa-link"></i></a>
-                                            </div>
-                                            <div class="port-meta">
-                                                <h4>Sethi Hospitals Website</h4>
-                                                <p>CSS, JS, HTML</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-md-4 col-sm-6 col-xs-12">
-                                    <div class="portfolio-single">
-                                        <div class="portfolio-thum">
-                                            <img src="img/portfolio/port_item-3.jpg" alt="">
-                                        </div>
-                                        <div class="portfolio-hover text-center">
-                                            <div class="port-btn-hvr">
-                                                <a href="img/portfolio/port_item-3.jpg" class="image-link"><i class="fa fa-search-plus"></i></a>
-                                                <a href="https://github.com/sSethi/diabetic-retinopathy" target="_blank"><i class="fa fa-link"></i></a>
-                                            </div>
-                                            <div class="port-meta">
-                                                <h4>Diabetic Retinopathy Detection</h4>
-                                                <p>Machine Learning, Neural Networks, Jupyter</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-    
-            </div> -->
 
 
         </div>
@@ -773,26 +574,34 @@
     <!--====== Contact Area End ======-->
 
     <!--====== Footer Area Start ======-->
-    <footer id="footer-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="footer-social-link">
-                        <ul class="footer-icons">
-                            <li><a href="https://github.com/sSethi"><i class="fa fa-github"></i></a></li>
-                            <li><a href="https://www.linkedin.com/in/Falak-Sethi-6a002b166/"><i class="fa fa-linkedin"></i></a></li>
-
-                        </ul>
-                    </div>
-                    <hr>
-                    <div class="copyright-area text-center">
-                        <p>Falak &copy; 2025. ALL RIGHTS RESERVED.</p>
-                    </div>
+<footer id="footer-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="footer-social-link">
+                    <ul class="footer-icons" style="list-style: none; padding: 0; display: flex; justify-content: center; gap: 20px;">
+                        <li>
+                            <a href="https://github.com/sSethi" target="_blank" style="color: white; font-size: 24px;">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/Falak-Sethi-6a002b166/" target="_blank" style="color: white; font-size: 24px;">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="copyright-area text-center">
+                    <p>Falak &copy; 2025. ALL RIGHTS RESERVED.</p>
                 </div>
             </div>
         </div>
-    </footer>
-    <!--====== Footer Area End ======-->
+    </div>
+</footer>
+<!--====== Footer Area End ======-->
+
 
     <!--====== Back To Top Section Start ======-->
     <div id="scroll" data-toggle="tooltip" data-placement="top" title="Back To Top">
