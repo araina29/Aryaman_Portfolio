@@ -248,3 +248,33 @@
         height: 45px;
     }
 }
+
+#pro-skills-area {
+    background-color: var(--dark-bg);
+    color: var(--text-light);
+  }
+  
+  /* Section title (“Professional Skills”) in green */
+  #pro-skills-area .section-title h2 {
+    color: var(--accent);
+  }
+  
+  /* Category headers (“Languages”, etc.) in white */
+  #pro-skills-area .skill-category h3 {
+    color: var(--text-light);
+  }
+  
+  /* Skill pills: green border + text, transparent bg */
+  #pro-skills-area .skill-pill {
+    border: 2px solid var(--accent);
+    color: var(--accent);
+    background: transparent;
+    transition: background 0.2s, color 0.2s;
+  }
+  
+  /* Hover: fill green, white text */
+  #pro-skills-area .skill-pill:hover {
+    background: var(--accent);
+    color: var(--dark-bg);
+    cursor: default;
+  }
