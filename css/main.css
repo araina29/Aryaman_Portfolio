@@ -327,7 +327,7 @@ nav.main-menu ul li a:hover {
 
 .menu-close-btn {
     background-color: transparent;
-    background-image: url("../img/cross.png");
+    background-image: url("../img/transparent-hd-handdrawn-doodle-white-x-close-icon-7017516950382448q2k8ueuzf.png");
     background-position: center center;
     background-size: cover;
     border: medium none;
@@ -432,6 +432,7 @@ nav.main-menu ul li a:hover {
     background-color: #22252c;
     padding-top: 0px;
 }
+
 
 #interest-area .section-title {
     margin-bottom: 50px;
@@ -633,9 +634,11 @@ nav.main-menu ul li a:hover {
 /* ==== Experience CSS Start ==== */
 
 #experience-area {
-    background-color: #22252c;
+    background-color: #313741;
     color: #fff;
 }
+
+
 
 .experience-content {
     margin-top: 130px;
@@ -1052,7 +1055,7 @@ nav.main-menu ul li a:hover {
 /* ==== Testinonial Area CSS Start ==== */
 
 #testimonial-area {
-    background-color: #22252c;
+    background-color: #313741;
 }
 
 .single-testimonial {
@@ -1325,7 +1328,7 @@ nav.main-menu ul li a:hover {
 /* ==== Contact CSS Start ==== */
 
 #contact-area {
-    background-color: #22252c;
+    background-color: #313741;
     padding-top: 0;
 }
 
