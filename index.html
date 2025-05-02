@@ -548,54 +548,51 @@
     <section id="portfolio-area" class="section-padding">
         <div class="container">
             <div class="section-title">
-                <h2>Some Of My Works</h2>
+                <h2>PROJECTS</h2>
             </div>
-            <!-- <ul class="filters">
-                <li class="type active" data-filter="*">All</li>
-                <li class="type" data-filter=".python">Python</li>
-                <li class="type" data-filter=".frontend">Frontend</li>
-                <li class="type" data-filter=".backend">Backend</li>
-                <li class="type" data-filter=".data">Database</li>
-                <li class="type" data-filter=".AI">AI/ML/DL</li>
-            </ul> -->
     
             <div class="project-cards">
                 <div class="project-card">
-                    <img src="img/cross.png" alt="Data Analysis Agent">
+                    <img src="img/PCLBot.png" alt="PCL x Univeristy of Alberta">
                     <div class="card-body">
-                        <h5 class="card-title">Data Analysis Agent</h5>
-                        <p class="card-text">Developed an AI Data Analysis Agent using LangGraph and Plotly.</p>
-                        <p class="card-text"><small>Client: Own</small></p>
+                        <h5 class="card-title">PCL Bot</h5>
+                        <p class="card-text">Developed an LLM-based chatbot.</p>
+                        <p class="card-text"><small>Client: PCL Constrcutions</small></p>
                         <a href="#" class="btn">View Code</a>
                     </div>
                 </div>
                 <div class="project-card">
-                    <img src="img/cross.png" alt="Boss Pizza Website">
+                    <img src="img/Falak's portfolio.png" alt="Falak Portfolio">
                     <div class="card-body">
-                        <h5 class="card-title">Boss Pizza Website</h5>
-                        <p class="card-text">Developed an e-commerce website for a restaurant with online ordering.</p>
-                        <p class="card-text"><small>Client: Boss Pizza</small></p>
-                        <a href="#" class="btn">View Website</a>
-                    </div>
-                </div>
-                <!-- Add more project cards with appropriate categories -->
-
-                <div class="project-card">
-                    <img src="path-to-image/boss.png" alt="Boss Pizza Website">
-                    <div class="card-body">
-                        <h5 class="card-title">Boss Pizza Website</h5>
-                        <p class="card-text">Developed an e-commerce website for a restaurant with online ordering.</p>
-                        <p class="card-text"><small>Client: Boss Pizza</small></p>
+                        <h5 class="card-title">Portfolio</h5>
+                        <p class="card-text">A personal portfolio showcasing my skills, experiences, and selected projects.</p>
                         <a href="#" class="btn">View Website</a>
                     </div>
                 </div>
 
                 <div class="project-card">
-                    <img src="path-to-image/boss.png" alt="Boss Pizza Website">
+                    <img src="img/musicwiz.png" alt="MUSICwiz">
                     <div class="card-body">
-                        <h5 class="card-title">Boss Pizza Website</h5>
-                        <p class="card-text">Developed an e-commerce website for a restaurant with online ordering.</p>
-                        <p class="card-text"><small>Client: Boss Pizza</small></p>
+                        <h5 class="card-title">MUSICwiz</h5>
+                        <p class="card-text">ML project to reimagine music recommendations.</p>
+                        <a href="#" class="btn">View Website</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="img/PitchPal-AI.png" alt="PitchPal-AI">
+                    <div class="card-body">
+                        <h5 class="card-title">PitchPal-AI</h5>
+                        <p class="card-text">Voice-enabled sales assistant to engange leads in real-time.</p>
+                        <a href="#" class="btn">View Website</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="img/explQRer.png" alt="explQRer - QR code hunt">
+                    <div class="card-body">
+                        <h5 class="card-title">explQRer</h5>
+                        <p class="card-text">An interactive QR code hunting app inspired by Pokémon Go.</p>
                         <a href="#" class="btn">View Website</a>
                     </div>
                 </div>
@@ -609,61 +606,8 @@
 </section>
 <!--====== Portfolio Area End ======-->
 
-    <!--====== Contact Area Start ======-->
-    <section id="contact-area" class="section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="section-title">
-                        <br>
-                        <h2>Contact Me</h2>
-                    </div>
-                </div>
-            </div>
 
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="contact-form">
-                        <form name="contact" method="POST" data-netlify="true">
-                            <div class="col-md-6 col-sm-6 col-xs-12">
-                                <div class="name-input">
-                                    <div class="form-group">
-                                        <input type="text" name="name" placeholder="Your name" required />
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-6 col-sm-6 col-xs-12">
-                                <div class="email-input">
-                                    <div class="form-group">
-                                        <input type="email" name="email" placeholder="Your email" required />
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-12">
-                                <div class="textarea-input">
-                                    <div class="form-group">
-                                        <input type="text" name="subject" placeholder="Subject" required />
-                                    </div>
-                                </div>
-                            </div>
-
-                            <button type="submit">
-                                <span>Send</span>
-                            </button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    
-<!--====== Contact Area End ======-->
-
-
-    <!--====== Footer Area Start ======-->
+<!--====== Footer Area Start ======-->
 <footer id="footer-area">
     <div class="container">
         <div class="row">
@@ -759,8 +703,42 @@
     }
     </script>
 
-    
-
+    <script>
+        // Helper to encode data
+        function encode(data) {
+          return Object.keys(data)
+            .map(
+              (key) =>
+                encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
+            )
+            .join("&");
+        }
+      
+        const form = document.getElementById("contact-form");
+        const thankYouMessage = document.getElementById("thank-you-message");
+      
+        form.addEventListener("submit", function (event) {
+          event.preventDefault();
+      
+          const formData = new FormData(form);
+          const formObject = Object.fromEntries(formData.entries());
+      
+          fetch("/", {
+            method: "POST",
+            headers: { "Content-Type": "application/x-www-form-urlencoded" },
+            body: encode(formObject),
+          })
+            .then(() => {
+              form.style.display = "none";
+              thankYouMessage.style.display = "block";
+            })
+            .catch((error) => {
+              alert("There was an error submitting the form. Please try again.");
+              console.error("Form submission error:", error);
+            });
+        });
+      </script>
+      
 
 
 
