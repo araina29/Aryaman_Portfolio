@@ -115,7 +115,7 @@ body {
     display: inline-block;
     font-size: 45px;
     font-weight: 700;
-    text-transform: uppercase;
+    text-transform: none;
 }
 
 
@@ -1724,3 +1724,92 @@ body.preloader-active {
 
 
 /* ==== Scrollbar CSS End ==== */
+
+/* ==== Back To Top CSS End ==== */
+
+/* ==== Airbnb Host Area CSS Start ==== */
+#airbnb-area {
+    background-color: #22252c;
+    padding: 80px 0;
+}
+
+.project-showcase {
+    max-width: 500px;
+    margin: 0 auto 50px;
+}
+
+.airbnb-details {
+    margin-top: 30px;
+    color: #fff;
+}
+
+.details-container {
+    background-color: #313741;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.details-header h3 {
+    color: #00d7bb;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.details-location {
+    color: #f1f1f1;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.details-content {
+    margin-top: 20px;
+}
+
+.details-description p {
+    color: #f1f1f1;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.details-section {
+    margin-bottom: 25px;
+}
+
+.details-section h4 {
+    color: #00d7bb;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.details-section ul {
+    padding-left: 20px;
+}
+
+.details-section li {
+    color: #f1f1f1;
+    font-size: 15px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    list-style-type: circle;
+}
+
+@media (max-width: 768px) {
+    .details-container {
+        padding: 20px;
+    }
+    
+    .details-header h3 {
+        font-size: 22px;
+    }
+    
+    .details-section li {
+        font-size: 14px;
+    }
+}
+/* ==== Airbnb Host Area CSS End ==== */
+
+/* ==== Scrollbar CSS Start ==== */
