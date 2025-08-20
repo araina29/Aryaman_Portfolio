@@ -6,7 +6,7 @@ Welcome to my personal portfolio website. Here you’ll find a showcase of my sk
 
 📞 Phone: +1 (587) 938-5612
 
-📄 Portfolio: 
+📄 Portfolio: https://aryamanportfolio.netlify.app/
 
 💼 LinkedIn: (https://www.linkedin.com/in/araina29/)
 
