@@ -1,12 +1,12 @@
 #header-area.header-page {
-    background-color: #22252c;
+    background-color: #000000;
     padding-bottom: 60px;
     -webkit-transition: 0.4s;
     transition: 0.4s;
 }
 
 .every-page-margin {
-    background-color: #22252c;
+    background-color: #000000;
     height: 120px;
 }
 
@@ -32,7 +32,7 @@
 }
 
 #page-title-area h1 {
-    background: -webkit-linear-gradient(left, #00f298, #07f7f7);
+    background: -webkit-linear-gradient(left, #f5406c, #e2a609);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     display: inline-block;
@@ -42,7 +42,7 @@
 }
 
 #page-title-area p {
-    color: #f1f1f1;
+    color: #b3b3b3;
     font-size: 14px;
     font-weight: 300;
     line-height: 20px;
@@ -62,12 +62,12 @@
 }
 
 #page-content-wrap {
-    background-color: #22252c;
+    background-color: #000000;
     padding: 60px 0;
 }
 
 .single-blog-wrap {
-    background-color: #313741;
+    background-color: #141414;
     margin-bottom: 40px;
 }
 
@@ -89,7 +89,7 @@
 }
 
 .blog-content-wrap h4 a {
-    color: #02cfb4;
+    color: #f5406c;
     font-size: 22px;
     font-weight: 700;
 }
@@ -99,21 +99,21 @@
 }
 
 .post-meta-wrap a {
-    color: #f1f1f1;
+    color: #b3b3b3;
     font-size: 13px;
     font-weight: 600;
     position: relative;
 }
 
 .post-meta-wrap span {
-    color: #f1f1f1;
+    color: #b3b3b3;
     font-size: 12px;
     font-weight: 600;
     margin: 0 5px;
 }
 
 .post-meta-wrap a:hover {
-    color: #02cfb4;
+    color: #f5406c;
 }
 
 .blog-content-wrap p {
@@ -134,8 +134,8 @@ ul.pagi li {
 }
 
 ul.pagi li a {
-    border: 1px solid #00d7bb;
-    color: #f1f1f1;
+    border: 1px solid #f5406c;
+    color: #b3b3b3;
     font-size: 14px;
     padding: 7px 12px;
     -webkit-transition: all 0.2s ease 0s;
@@ -144,7 +144,7 @@ ul.pagi li a {
 
 ul.pagi li a:hover,
 ul.pagi li.active a {
-    background-color: #00d7bb;
+    background-color: #f5406c;
 }
 
 .single-sidebar {
@@ -169,12 +169,12 @@ ul.pagi li.active a {
 }
 
 .single-sidebar input[type="text"]:focus {
-    border-color: #00d7bb;
+    border-color: #f5406c;
 }
 
 .single-sidebar input[type="submit"] {
-    background-color: #00d7bb;
-    color: #f1f1f1;
+    background-color: #f5406c;
+    color: #b3b3b3;
     font-size: 13px;
     font-weight: 600;
     height: 100%;
@@ -185,15 +185,15 @@ ul.pagi li.active a {
 }
 
 .single-sidebar h3 {
-    border-bottom: 2px solid #00f298;
-    color: #02cfb4;
+    border-bottom: 2px solid #f5406c;
+    color: #f5406c;
     font-weight: 600;
     margin-bottom: 20px;
     padding-bottom: 15px;
 }
 
 .single-sidebar ul li a {
-    color: #f1f1f1;
+    color: #b3b3b3;
     display: inline-block;
     font-size: 16px;
     font-weight: 300;
@@ -203,7 +203,7 @@ ul.pagi li.active a {
 }
 
 .single-sidebar ul li a:hover {
-    color: #02cfb4;
+    color: #f5406c;
 }
 
 .single-sidebar ul.tag li {
@@ -211,8 +211,8 @@ ul.pagi li.active a {
 }
 
 .single-sidebar ul.tag li a {
-    background-color: #313741;
-    color: #02cfb4;
+    background-color: #141414;
+    color: #f5406c;
     font-size: 14px;
     padding: 7px 10px;
 }
@@ -221,7 +221,7 @@ ul.pagi li.active a {
 /*Single Blog Page CSS*/
 
 .single-blog-content {
-    color: #f1f1f1;
+    color: #b3b3b3;
 }
 
 .single-blog-content h2 {
@@ -233,14 +233,14 @@ ul.pagi li.active a {
 
 .single-blog-content .post-meta span,
 .single-blog-content .post-meta a {
-    color: #02cfb4;
+    color: #f5406c;
     font-size: 16px;
     -webkit-transition: 0.3s;
     transition: 0.3s;
 }
 
 .single-blog-content .post-meta a:hover {
-    color: #f1f1f1;
+    color: #b3b3b3;
 }
 
 .single-blog-content .post-meta {
@@ -271,7 +271,7 @@ ul.pagi li.active a {
 }
 
 .post-share ul li {
-    color: #02cfb4;
+    color: #f5406c;
     display: inline;
     font-size: 16px;
     font-weight: 600;
@@ -279,21 +279,21 @@ ul.pagi li.active a {
 }
 
 .post-share ul li a {
-    color: #f1f1f1;
+    color: #b3b3b3;
     display: inline-block;
     -webkit-transition: 0.2s;
     transition: 0.2s;
 }
 
 .post-share ul li a:hover {
-    color: #02cfb4;
+    color: #f5406c;
 }
 
 
 /*Related Post Area Css*/
 
 #related-post-area {
-    background-color: #22252c;
+    background-color: #000000;
     padding: 60px 0;
 }
 
@@ -302,19 +302,19 @@ ul.pagi li.active a {
 }
 
 .single-related-post {
-    border: 1px solid #02cfb4;
+    border: 1px solid #f5406c;
     padding: 25px;
 }
 
 .related-post-title h2 {
-    color: #02cfb4;
+    color: #f5406c;
     font-size: 30px;
     font-weight: 700;
     text-transform: uppercase;
 }
 
 .single-related-post h5 {
-    color: #f1f1f1;
+    color: #b3b3b3;
     font-size: 15px;
     font-weight: 700;
     line-height: 22px;
@@ -327,7 +327,7 @@ ul.pagi li.active a {
 }
 
 .related-post-meta a {
-    color: #02cfb4;
+    color: #f5406c;
     font-size: 13px;
     font-weight: 700;
     -webkit-transition: all 0.3s ease 0s;
@@ -335,16 +335,16 @@ ul.pagi li.active a {
 }
 
 .related-post-meta a:hover {
-    color: #f1f1f1;
+    color: #b3b3b3;
 }
 
 .related-post-meta span {
     margin: 0 5px;
-    color: #02cfb4;
+    color: #f5406c;
 }
 
 .single-related-post p {
-    color: #f1f1f1;
+    color: #b3b3b3;
     font-size: 13px;
     letter-spacing: 0.6px;
     line-height: 24px;
@@ -352,7 +352,7 @@ ul.pagi li.active a {
 }
 
 .r-read-btn {
-    color: #02cfb4;
+    color: #f5406c;
     font-size: 13px;
     font-weight: 600;
     line-height: 24px;
@@ -362,15 +362,15 @@ ul.pagi li.active a {
 }
 
 .r-read-btn:hover {
-    color: #f1f1f1;
+    color: #b3b3b3;
 }
 
 
 /*Comments Section Css*/
 
 #comment-area {
-    background-color: #22252c;
-    color: #f1f1f1;
+    background-color: #000000;
+    color: #b3b3b3;
     font-size: 13px;
     font-weight: 400;
     line-height: 20px;
@@ -379,7 +379,7 @@ ul.pagi li.active a {
 }
 
 .mobile-comment {
-    color: #f1f1f1;
+    color: #b3b3b3;
     font-size: 13px;
     font-weight: 300;
     line-height: 20px;
@@ -391,7 +391,7 @@ ul.pagi li.active a {
 }
 
 .comment-section-title h3 {
-    background: -webkit-linear-gradient(left, #00f298, #07f7f7);
+    background: -webkit-linear-gradient(left, #f5406c, #e2a609);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 30px;
@@ -411,8 +411,8 @@ ul.pagi li.active a {
 }
 
 .comments-details h4 {
-    border-bottom: 1px solid #02cfb4;
-    color: #02cfb4;
+    border-bottom: 1px solid #f5406c;
+    color: #f5406c;
     font-weight: 600;
     margin-bottom: 10px;
     padding-bottom: 8px;
@@ -424,7 +424,7 @@ ul.pagi li.active a {
 }
 
 .leave-comment>h3 {
-    color: #02cfb4;
+    color: #f5406c;
     font-size: 26px;
     font-weight: 600;
 }
@@ -451,7 +451,7 @@ ul.pagi li.active a {
 
 .comments-form input:focus,
 .comments-form textarea:focus {
-    border-bottom-color: #02cfb4;
+    border-bottom-color: #f5406c;
 }
 
 .comments-form textarea {
@@ -459,9 +459,9 @@ ul.pagi li.active a {
 }
 
 .commnet-btn {
-    background-color: #00d7bb;
+    background-color: #f5406c;
     border: 0 none;
-    color: #f1f1f1;
+    color: #b3b3b3;
     font-size: 14px;
     font-weight: 700;
     padding: 12px 20px;
@@ -471,7 +471,7 @@ ul.pagi li.active a {
 }
 
 .commnet-btn:hover {
-    background-color: #17D397;
+    background-color: #f5406c;
 }
 
 
@@ -488,7 +488,7 @@ ul.pagi li.active a {
 }
 
 .portfolio-menu ul li::after {
-    color: #00d7bb;
+    color: #f5406c;
     content: "/";
     font-size: 16px;
     position: absolute;
@@ -508,7 +508,7 @@ ul.pagi li.active a {
 
 .portfolio-menu ul li span {
     border-bottom: 1px solid transparent;
-    color: #f1f1f1;
+    color: #b3b3b3;
     cursor: pointer;
     display: inline-block;
     font-size: 16px;
@@ -519,21 +519,21 @@ ul.pagi li.active a {
 
 .portfolio-menu ul li span.active,
 .portfolio-menu ul li span:hover {
-    border-bottom-color: #00d7bb;
-    color: #00d7bb;
+    border-bottom-color: #f5406c;
+    color: #f5406c;
 }
 
 
 /*Single Portfolio Page CSS*/
 
 .portfolio-open-content {
-    color: #f1f1f1;
+    color: #b3b3b3;
     font-size: 14px;
     font-weight: 300;
 }
 
 .portfolio-open-content h4 {
-    color: #02cfb4;
+    color: #f5406c;
     font-size: 18px;
     font-weight: 700;
     margin-bottom: 10px;
@@ -557,13 +557,13 @@ ul.pagi li.active a {
 }
 
 .portfolio-open-content a {
-    color: #f1f1f1;
+    color: #b3b3b3;
     -webkit-transition: 0.3s;
     transition: 0.3s
 }
 
 .portfolio-open-content a:hover {
-    color: #02cfb4;
+    color: #f5406c;
 }
 
 .portfolio-open-content ul li a {
@@ -599,7 +599,7 @@ ul.pagi li.active a {
 }
 
 .portfolio-open .owl-nav div:hover {
-    color: #02cfb4;
+    color: #f5406c;
 }
 
 .portfolios-thumbnail:hover .owl-nav div {
